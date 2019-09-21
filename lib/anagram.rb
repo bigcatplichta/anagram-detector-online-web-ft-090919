@@ -1,1 +1,8 @@
-# Your code goes here!
+def Anagram
+  attr_accessor :word 
+  
+  def initialize
+    
+  end
+  
+end 
