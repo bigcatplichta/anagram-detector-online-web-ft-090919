@@ -6,6 +6,6 @@ def Anagram
   end
   
   def match(word_list)
-    
+    word_list.scan(/\b[@word]{@word.count}\b/)
   end 
 end 
