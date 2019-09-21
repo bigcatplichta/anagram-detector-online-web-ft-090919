@@ -1,8 +1,8 @@
 def Anagram
-  attr_accessor :words 
+  attr_accessor :word
   
-  def initialize(word_list)
-    @words = word_list.
+  def initialize(word)
+    @word = word
   end
   
 end 
